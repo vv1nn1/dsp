@@ -19,8 +19,9 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > Command | Function
---- | ---
+> > 
+Command | Function
+------- | --------
 `pwd` | show current working directory path
 `mkdir <directory>` | creating a directory
 `rmdir <directory>` | deleting a directory
@@ -45,8 +46,9 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > Command | Function
---- | ---
+> > 
+Command | Function
+------- | --------
 `ls` | list files in the current working directory 
 `ls -a` | list all files including hidden files 
 `ls -l` |  list the long format listing
@@ -60,21 +62,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 
-
-`ls -la`
-`ls -r`
-`ls -d`
-`ls -c`
-`ls -Glp`
+> > `ls -la`, `ls -r`, `ls -d`, `ls -c`, `ls -Glp`
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > `xargs` reads items from the standard input, delimited by blanks or newlines, and executes the command (press ctrl-D). Blank lines on the standard input are ignored.
-
-Use `find` and `xargs` to search for files that contain a specific string. Ex: `$ find /Users -name "*.py" | xargs grep "by Winnie"`
+> > `xargs` reads items from the standard input, delimited by blanks or newlines, and executes the command (press ctrl-D). Blank lines on the standard input are ignored. Use `find` and `xargs` to search for files that contain a specific string. Ex: `$ find /Users -name "*.py" | xargs grep "by Winnie"`
  
 
