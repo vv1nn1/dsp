@@ -19,7 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command | Function
+--- | ---
+`pwd` | show current working directory path
+`mkdir <directory>` | creating a directory
+`rmdir <directory>` | deleting a directory
+`touch <file>` | creating a file using `touch` command
+`rm <file>` | deleting a file
+`rm -f <directory>` | force deleting a directory
+`mv <file_old> <file_new>` | renaming a file
+`mv <file> <directory>` | moving a file from one directory to another
+`ls -a` | listing hidden files
+`cp <file> <directory>` | copying a file from one directory to another
 
 ---
 
@@ -34,23 +45,36 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > Command | Function
+--- | ---
+`ls` | list files in the current working directory 
+`ls -a` | list all files including hidden files 
+`ls -l` |  list the long format listing
+`ls -lh` | 	list long format with readable file size
+`ls -lah` | list long format with readable file size including hidden files  
+`ls -t` | list newest files first. (based on timestamp)  
+`ls -Glp` | list long format directory in color and with / at the end 
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
+`ls -la`
+`ls -r`
+`ls -d`
+`ls -c`
+`ls -Glp`
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` reads items from the standard input, delimited by blanks or newlines, and executes the command (press ctrl-D). Blank lines on the standard input are ignored.
 
+Use `find` and `xargs` to search for files that contain a specific string. Ex: `$ find /Users -name "*.py" | xargs grep "by Winnie"`
  
 
