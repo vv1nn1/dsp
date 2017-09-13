@@ -13,6 +13,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
 >> Lists and tuples are like arrays. They are an ordered sequence of objects. They can contain any types of objects, not just restricted to characters or integers. 
+
 List | Tuple
 ---- | ----
 `[ ]` | `( )`
@@ -27,6 +28,7 @@ homogeneous, where the sequence of values are functionally equivalent | heteroge
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
 >> Python lists and sets are both sequences of values. 
+
 List | Set
 ---- | ----
 ordered | unordered
