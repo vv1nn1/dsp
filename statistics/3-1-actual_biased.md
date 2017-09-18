@@ -15,5 +15,5 @@ thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 pmf.Mean()
 #1.0242051550438309
 biased.Mean()
-2.4036791006642821
+#2.4036791006642821
 ```
